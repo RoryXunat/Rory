@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+    margin: 0px;
+    background-color: rgba(255, 255, 236, 1);
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color:black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.logo{
+    display: inline-block;
+    background-color: coral;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-style: 24px;
+}
+
+.menu{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+
+}
+
+.menu div{
+    background-color: aquamarine;
+    height: 50px;
+    display: inline-block;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.h1, .p1{
+    margin-left: 30px;
+}
+
+.h1{
+    margin-top: 120px;
+}
+
+.three-pictures-in-row img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 236, 1) ;
+    box-shadow: 4px 3px 10px;
+}
+
+.three-pictures-in-row p{
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.three-pictures-in-row .p-in-row2{
+    margin-left: 260px;
+}
+
+.three-pictures-in-row .p-in-row3{
+    margin-left: 250px;
+}
+
+.text .p1{
+    margin-left: 500px;
+}
+
+.text .p2{
+    margin-left: 200px;
+}
+
+.text .p3{
+    margin-left: 90px;
+}
+
+.greenblok{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    background: #E0FFC1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.greenblok p{
+    position: absolute;
+    left: 240px;
+    top: 274px;
+}
+
+.greenblok h2{
+    position: absolute;
+    left: 237px;
+    top: 225px;
+}
+
+.greenblok img{
+    margin-left: 1099px;
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid #000000;
+    box-shadow: 15px 9px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+
+.greyblok{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.greyblok p{
+    position: absolute;
+    left: 1184px;
+    top: 267px;
+}
+
+
+.greyblok img{
+    margin-left: 90px;
+    margin-top: 90px;
+    width: 600px;
+    height: 500px;
+    top: 1945px;
+    border: 1px solid #000000;
+    box-shadow: 15px 9px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.greyblok h2{
+    position: absolute;
+    left: 1186px;
+    top: 224px;
+}
+
+.yellowblok{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    background-color: bisque;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.yellowblok p{
+    position: absolute;
+    left: 240px;
+    top: 274px;
+}
+
+.yellowblok h2{
+    position: absolute;
+    left: 237px;
+    top: 225px;
+}
+
+.yellowblok img{
+    margin-left: 1099px;
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid #000000;
+    box-shadow: 15px 9px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.blueblok{
+    display: inline-block;
+    background-color: cornflowerblue;
+    width: 887px;
+    height: 256px;
+    border-radius: 20px;
+    padding: 31px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 446px;
+    font-weight: 600;
+}
+
+.knopka{
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(100.97deg, #9E00FF -30.76%, #00E0FF 131.66%);
+    box-shadow: 2px 5px 8px rgba(56, 136, 255, 0.38);
+    border-radius: 60px;
+    padding-top: 15px;
+    margin-left: 230px;
+}
+
+.knopka a{
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Адаптивність */
+
+@media screen and(width<=400px) {
+
+    .header{
+        height: 50px;
+    }
+
+
+    .header .logo{
+        height: 75px;
+        width: 400px;
+        border-radius: 0px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .logo span{
+        position: absolute;
+        font-weight: 800;
+        font-size: 40px;
+        margin-left: 9px;
+        margin-top: 18px;
+    }
+
+
+    .menu div{
+        background-color: black;
+        color: azure;
+        width: 67px;
+        height: 17px;
+        padding: 0px;
+    }
+}
